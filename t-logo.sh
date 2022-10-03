@@ -12,7 +12,7 @@ rm motd
 #Name
 sh logo.sh
 echo "${GR}Adını yaz!"
-Adını yaz!
+read name
 # Open file descriptor (fd) 3 for read/write on a bash file.
  exec 3<> bash.bashrc
  # Let's print some text to fd 3
