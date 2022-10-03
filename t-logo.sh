@@ -49,4 +49,4 @@ shopt -s lithist ">&3
 
  # Close fd 3 
 exec 3>&-
-echo " ${RED}Termux Logo Was Changed Go To New Session To See The New"
+echo " ${RED}Şimdi exit yaz ve yeniden gir ve oldu! yey"
