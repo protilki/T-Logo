@@ -17,11 +17,11 @@ read name
  exec 3<> bash.bashrc
  # Let's print some text to fd 3
 echo " PS1='\033[1;32m
-\a┏\a━━We━━━Are━━━━━Myanmar━┓\033[1;32m
-\a┏\a━\a┃ Young\a  Professional \aTermux ┃--┃ \@ ┃---| \d ┃
+\a┏\a━━━━Termux━━━━━┓\033[1;32m
+\a┏\a━\a┃ \a \@ \d ┃
 \a\a┃\a \a\033[1;32m┗━$name━┛\033[1;36m
 \a┗\a┳\a━\a📂\033[1;32m\w\a📂
-┗ 🇹🇷 \# 👨‍🔧 -UwU\W 🔋🔌🖱️🔰✏️ '
+┗ \# \W $name>> '
 
 
 
