@@ -11,7 +11,7 @@ rm bash.bashrc
 rm motd
 #Name
 sh logo.sh
-echo "${GR}What Is Your Name ?"
+echo "${GR}Adını yaz!"
 read name
 # Open file descriptor (fd) 3 for read/write on a bash file.
  exec 3<> bash.bashrc
@@ -19,9 +19,12 @@ read name
 echo " PS1='\033[1;32m
 \a┏\a━━━━Termux━━━━━┓\033[1;32m
 \a┏\a━\a┃ \a \@ \d ┃
-\a\a┃\a \a\033[1;32m┗━$name━┛\033[1;36m
 \a┗\a┳\a━\a📂\033[1;32m\w\a📂
-┗ \# \W $name>> '
+┗ \# \W a\033[1;32m$name\033[1;36m\a>> '
+
+
+
+
 
 
 
